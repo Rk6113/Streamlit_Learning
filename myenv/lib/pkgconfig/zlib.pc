@@ -1,0 +1,13 @@
+prefix=/Users/rishirajkanukuntla/Desktop/Projects_Python/Streamlit_Project/myenv
+exec_prefix=/Users/rishirajkanukuntla/Desktop/Projects_Python/Streamlit_Project/myenv
+libdir=/Users/rishirajkanukuntla/Desktop/Projects_Python/Streamlit_Project/myenv/lib
+sharedlibdir=/Users/rishirajkanukuntla/Desktop/Projects_Python/Streamlit_Project/myenv/lib
+includedir=/Users/rishirajkanukuntla/Desktop/Projects_Python/Streamlit_Project/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
